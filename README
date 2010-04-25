@@ -1,0 +1,42 @@
+Thread-Const - Constant strings efficiently shared between threads
+
+This module generates constant values that can be shared among threads. This may reduce memory usage because the variable won't be copied.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Thread::Const
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Thread-Const
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Thread-Const
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Thread-Const
+
+    Search CPAN
+        http://search.cpan.org/dist/Thread-Const
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2010 Leon Timmermans
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
